@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed" rel="stylesheet">
+  <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__block">
+      <h1 class="header__title">
+        Rock<br/>
+        Paper<br/>
+        Scissors<br/>
+        Lizard<br/>
+        Spock<br/>
+      </h1>
+      <div class="header__score">
+        <h3 class="header__score-title">Score</h3>
+        <span class="header__score-count">0</span>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="pick">
+      <div class="scissors">
+        <div class="scissors__wrapper">
+            <span class="scissors__img pick__item"></span>
+        </div>
+      </div>
+      <div class="spock">
+        <div class="spock__wrapper">
+            <span class="spock__img pick__item"></span>
+        </div>
+      </div>
+      <div class="paper">
+        <div class="paper__wrapper">
+            <span class="paper__img pick__item"></span>
+        </div>
+      </div>
+      <div class="lizard">
+        <div class="lizard__wrapper">
+            <span class="lizard__img pick__item"></span>
+        </div>
+      </div>
+      <div class="rock">
+        <div class="rock__wrapper">
+            <span class="rock__img pick__item"></span>
+        </div>
+      </div>
+    </div>
+    <div class="game">
+      <div class="game__your-pick">
+        <h3 class="game__title">You picked</h3>
+      </div>
+      <div class="game__result">
+        <h3 class="game__result-title"></h3>
+        <span class="game__btn">Play again</span>
+      </div>
+      <div class="game__house-pick">
+        <h3 class="game__title">The house picked</h3>
+      </div>
+    </div>
+    <div class="rules">
+      <div class="rules__bg close-rules"></div>
+      <div class="rules__img-block">
+        <div class="rules__header">
+          <h3 class="rules__title">Rules</h3>
+          <span class="rules__close-btn close-rules"></span>
+        </div>
+        <span class="rules__img"></span>
+      </div>
+      <span class="rules__btn">Rules</span>
+    </div>
+  </main>
+
+  <script src="./js/index.js"></script>
+</body>
+</html>
